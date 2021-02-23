@@ -28,9 +28,9 @@ A Maven profile containing the following settings is required:
 <profile>
   <id>geocode</id>
   <properties>
-    <geocode-ws.url>jdbc:postgresql://server/postgis_db</geocode-ws.url>
-    <geocode-ws.username>eez</geocode-ws.username>
-    <geocode-ws.password>password</geocode-ws.password>
+    <geocode-ws.db.url>jdbc:postgresql://localhost/geocode</geocode-ws.db.url>
+    <geocode-ws.db.username>eez</geocode-ws.db.username>
+    <geocode-ws.db.password>password</geocode-ws.db.password>
   </properties>
 </profile>
 ```
